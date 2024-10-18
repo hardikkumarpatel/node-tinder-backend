@@ -5,8 +5,7 @@ import collection from "./dbConfig.js";
 // App Config
 const app = express();
 const port = process.env.port || 9002;
-const mongo_connection_url =
-     "mongodb+srv://admin:admin@mongo.....@cluster0.b436t.mongodb.net/Learn?retryWrites=true&w=majority"
+const mongo_connection_url = "";
 // Middleware
 app.use(cors());
 app.use(express.json());
